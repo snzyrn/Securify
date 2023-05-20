@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@600;300&display=swap');
+
+
+:root {
+    --main-color: #402AC8;
+    --secondary-color: #EF8100;
+    --light-color: #FAFFFD;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* Navbar CSS starts */
+.navbar {
+    display: flex;
+    position: sticky;
+    background-color: var(--main-color);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-color);
+    gap: 10px;
+}
+
+.logo a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+.logo i {
+    height: 10px;
+    width: 10px;
+    padding-bottom: 8px;
+}
+
+/* Navbar CSS ends */
+.main {
+    padding: 20px 50px;
+    height: 500px;
+}
+.main h3 {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+}
+.main p {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#goBack-btn {
+    color: var(--main-color);
+    background: none;
+    border: none;
+    transition-duration: 0.3s;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+#goBack-btn:hover {
+    color: var(--secondary-color);
+}
+/* Web Application CSS starts */
+.header {
+    position: sticky;
+    z-index: 1000;
+    display: flex;
+    background-color: var(--light-color);
+    padding: 0 40px;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+}
+
+#logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.search-container form button {
+    border: none;
+    background-color: var(--main-color);
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: var(--light-color);
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    background-color: var(--main-color);
+    padding: 2px 5px;
+}
+.icons i{
+    color: var(--main-color);
+}
+
+.icons a{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+.search-container form input{
+    border: none;
+    border-radius: 5px;
+    padding: 4px 40px;
+}
+/* Web Application CSS ends */
+/* Footer CSS starts */
+.footer {
+    background: var(--main-color);
+    font-family: 'Inter', sans-serif;
+    padding: 30px 0;
+    flex-shrink: 0;
+}
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .box h4{
+    color: var(--secondary-color);
+    padding-bottom: 1rem;
+}
+
+.footer .box-container .box a{
+    color: aliceblue;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+    text-decoration: none;
+}
+/* Footer CSS ends */
