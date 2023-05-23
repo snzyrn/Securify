@@ -20,6 +20,8 @@
 <!--Main-->
 <div class="main">
     <div class="buttons">
+        <p><a href="../XSS/index.php">XSS</a></p>
+        <div class="vertical-line"></div>
         <p><a href="../ReflectedXSS/index.php">Reflected XSS</a></p>
         <div class="vertical-line"></div>
         <p><a href="../StoredXSS/index.php">Stored XSS</a></p>

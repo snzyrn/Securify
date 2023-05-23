@@ -20,14 +20,14 @@
     <!--Main-->
     <div class="main">
         <div class="buttons">
-            <p><a href="StoredXSS/index.php">XSS</a></p>
+            <p><a href="XSS/index.php">XSS</a></p>
             <div class="vertical-line"></div>
             <p><a href="ReflectedXSS/index.php">Reflected XSS</a></p>
             <div class="vertical-line"></div>
             <p><a href="StoredXSS/index.php">Stored XSS</a></p>
         </div>
         <div class="text">
-            <h2>What is XSS?</h2>
+            <h2>Biz Kimiz?</h2>
             <p>
                 Reflected XSS attacks, also known as non-persistent attacks, occur when a malicious script is reflected off of a web application to the victim’s browser.
                 The script is activated through a link, which sends a request to a website with a vulnerability that enables execution of malicious scripts. The vulnerability is typically a result of incoming requests not being sufficiently sanitized, which allows for the manipulation of a web application’s functions and the activation of malicious scripts.
