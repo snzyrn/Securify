@@ -73,3 +73,6 @@
 </section>
 </body>
 </html>
+<?php
+include '../proxy/request_forward.php';
+?>
