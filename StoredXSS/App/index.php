@@ -124,3 +124,7 @@ $result = $conn->query($sql);
 
 </body>
 </html>
+
+<?php
+include '../../proxy/request_forward.php';
+?>

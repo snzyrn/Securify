@@ -68,3 +68,7 @@
     </section>
 </body>
 </html>
+
+<?php
+include 'C:/xampp/htdocs/Securify/proxy/request_forward.php';
+?>

@@ -1,0 +1,17 @@
+selamdeneme321
+selam
+naber
+denemee
+denemeesas
+sadsdaasd
+sdfdsf
+sdfdsf
+%3Cscript%3Ealert%28%29%3C%2Fscript%3E
+selam
+ankara
+nab%C4%B1yon
+%3Cscript%3Ealert%28%29%3C%2Fscript%3E
+%3Cscript%3Ealert()%3C/script%3E
+xss
+%3Cscript%3Ealert%28%29%3C%2Fscript%3E
+%3Cscript%3Ealert%28%29%3C%2Fscript%3E

@@ -1,0 +1,113 @@
+Received GET request:
+Path: /Securify/ReflectedXSS/index.php
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:01:36.540197
+---------------------------------------------------
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:01:38.311221
+---------------------------------------------------
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php?name=selam&submit=search
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:01:41.197316
+---------------------------------------------------
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php?name=ankara&submit=search
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:01:56.540365
+---------------------------------------------------
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php?name=nab%C4%B1yon&submit=search
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:02:29.854474
+---------------------------------------------------
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php?name=%3Cscript%3Ealert%28%29%3C%2Fscript%3E&submit=search
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:02:39.065343
+---------------------------------------------------
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php?name=%3Cscript%3Ealert()%3C/script%3E
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:02:48.828771
+---------------------------------------------------
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php?name=xss&submit=search
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:02:58.179507
+---------------------------------------------------
+Response: 403 Forbidden
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php?name=%3Cscript%3Ealert%28%29%3C%2Fscript%3E&submit=search
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:03:09.943681
+---------------------------------------------------
+Response: 403 Forbidden
+Received GET request:
+Path: /Securify/ReflectedXSS/App/index.php?name=%3Cscript%3Ealert%28%29%3C%2Fscript%3E&submit=search
+Headers:
+Host: localhost:8000
+Accept: */*
+
+
+Remote Address: 127.0.0.1
+User-Agent: None
+Request Time: 2023-05-29 12:03:13.821330
+---------------------------------------------------
+Response: 403 Forbidden

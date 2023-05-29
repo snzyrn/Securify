@@ -31,6 +31,10 @@
                 <form method="GET" action="" name="form">
                     <input type="text" name="name" placeholder="Search...">
                     <button type="submit" name="submit" value="search" <i class="fa-solid fa-search"></i></button>
+                    <?php
+                    if (isset($_GET['name'])) {
+                        echo 'Arattığınız kelime: ' . ($_GET['name']);
+                    }?>
                 </form>
             </div>
             <nav class="icons">
@@ -75,3 +79,7 @@
 
 </body>
 </html>
+
+<?php
+include '../../proxy/request_forward.php';
+?>
